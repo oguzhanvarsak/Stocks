@@ -1,0 +1,28 @@
+PODS:
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - SnapKit (5.6.0)
+  - XCoordinator (2.2.1):
+    - XCoordinator/Core (= 2.2.1)
+  - XCoordinator/Core (2.2.1)
+
+DEPENDENCIES:
+  - DGCharts
+  - SnapKit (~> 5.6.0)
+  - XCoordinator (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - SnapKit
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  XCoordinator: 2cf9f72e10998b7a4a4bbeac3d07e071ea82fca3
+
+PODFILE CHECKSUM: 22a97b5b184ab0c38fdc136ca87767de00f875dc
+
+COCOAPODS: 1.12.1
