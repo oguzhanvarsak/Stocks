@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SettingsViewController.swift
 //  Stocks
 //
 //  Created by Oguzhan Varsak on 20/07/2023.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = .red
     }
-
-
 }
-
