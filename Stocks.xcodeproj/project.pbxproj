@@ -132,12 +132,12 @@
 		53CAA7312A68A2860004548B /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
-				53D628062A68AE8700910AEF /* Extensions */,
-				53D628032A68AE3100910AEF /* Utils */,
 				53CAA7432A68A2890004548B /* Info.plist */,
-				53D627ED2A68A90B00910AEF /* Utilities */,
+				53D627ED2A68A90B00910AEF /* Common Files */,
 				53D627FC2A68AAD500910AEF /* Coordinators */,
 				53D627EE2A68A92100910AEF /* Screens */,
+				53D628032A68AE3100910AEF /* Utilities */,
+				53D628062A68AE8700910AEF /* Extensions */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			path = StocksUITests;
 			sourceTree = "<group>";
 		};
-		53D627ED2A68A90B00910AEF /* Utilities */ = {
+		53D627ED2A68A90B00910AEF /* Common Files */ = {
 			isa = PBXGroup;
 			children = (
 				53D6280D2A68B63500910AEF /* AppDelegate.swift */,
@@ -167,7 +167,7 @@
 				53CAA7402A68A2890004548B /* LaunchScreen.storyboard */,
 				53CAA73B2A68A2860004548B /* Stocks.xcdatamodeld */,
 			);
-			path = Utilities;
+			path = "Common Files";
 			sourceTree = "<group>";
 		};
 		53D627EE2A68A92100910AEF /* Screens */ = {
@@ -199,12 +199,12 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		53D628032A68AE3100910AEF /* Utils */ = {
+		53D628032A68AE3100910AEF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				53D628042A68AE3C00910AEF /* BindableType.swift */,
 			);
-			path = Utils;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		53D628062A68AE8700910AEF /* Extensions */ = {

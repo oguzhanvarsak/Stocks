@@ -9,7 +9,6 @@ import XCoordinator
 
 enum WatchlistRoute: Route {
     case watchlist
-    case close
 }
 
 class WatchlistCoordinator: NavigationCoordinator<WatchlistRoute> {
@@ -22,10 +21,5 @@ class WatchlistCoordinator: NavigationCoordinator<WatchlistRoute> {
         case .watchlist:
             let viewController = HomeViewController()
             return .push(viewController)
-
-        case .close:
-            return .dismissToRoot()
-        }
     }
-
 }
